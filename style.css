@@ -17,15 +17,14 @@ body {
 }
 
 main {
+    width: 80vw;
     margin: 2rem auto;
     font-family: 'Karla', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .join {
-    width: 80vw;
     padding: 2rem;
     border-radius: 0.5rem 0.5rem 0 0;
     background-color: white;    
@@ -51,11 +50,9 @@ main {
 .subsection {
     display: flex;
     flex-direction: column;
-    align-items: center;   
 }
 
 .subsription {
-    width: 80vw;
     background-color: var(--cyan);
     color: white;
     padding: 2rem;
@@ -108,7 +105,6 @@ main {
 }
 
 .why-us {
-    width: 80vw;
     background-color: hsl(179, 62%, 53%);
     padding: 2rem;
     border-radius: 0 0 0.5rem 0.5rem;
@@ -130,7 +126,6 @@ main {
         margin: auto;
         min-height: 100vh;
         justify-content: center;
-        align-items: center;
     }
     
     .subsection {

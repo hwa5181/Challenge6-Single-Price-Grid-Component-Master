@@ -125,6 +125,7 @@ main {
     main {
         margin: auto;
         min-height: 100vh;
+        max-width: calc(800/16*1rem); /*fix very wide on large screen*/
         justify-content: center;
     }
     
@@ -136,6 +137,7 @@ main {
     .subsription,
     .why-us {
         width: 40vw;
+        max-width: calc(400/16*1rem);/*fix very wide on large screen*/
     }
 
     .subsription {

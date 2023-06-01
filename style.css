@@ -52,13 +52,13 @@ main {
     flex-direction: column;
 }
 
-.subsription {
+.subscription {
     background-color: var(--cyan);
     color: white;
     padding: 2rem;
 }
 
-.subsription h3 {
+.subscription h3 {
     margin: 0 0 1.5rem;
 }
 
@@ -80,7 +80,7 @@ main {
     color: var(--light-gray);
 }
 
-.subsription p {
+.subscription p {
     margin: 0 0 1.5rem;
 }
 
@@ -134,13 +134,13 @@ main {
         align-items: stretch;
     }
 
-    .subsription,
+    .subscription,
     .why-us {
         width: 40vw;
         max-width: calc(400/16*1rem);/*fix very wide on large screen*/
     }
 
-    .subsription {
+    .subscription {
         border-radius: 0 0 0 0.5rem;
     }
 
